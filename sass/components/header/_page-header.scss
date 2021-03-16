@@ -1,12 +1,13 @@
 .page-header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+
   border-bottom: 1px solid #ececec;
 }
 
 .container--nav {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+  @media screen and (min-width: $tablet) {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
 }

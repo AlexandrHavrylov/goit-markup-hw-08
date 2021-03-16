@@ -6,6 +6,13 @@
   justify-content: space-between;
 }
 
+.nav__container{
+  @media screen and (max-width: $tablet) {
+    display: none;    
+  }
+}
+
+
 .nav__list {
   @extend %list;
   margin-left: 93px;

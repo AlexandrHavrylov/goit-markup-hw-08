@@ -2,18 +2,14 @@
 .footer {
   background-color: $third-bg-color;
 
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.71;
 }
 
 .container--footer {
   display: flex;
+  flex-direction: column;
+
   padding-top: 60px;
   padding-bottom: 60px;
-  align-items: baseline;
+  align-items: center;
 }
 
-.social-links {
-  margin-left: 70px;
-}

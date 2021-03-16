@@ -1,5 +1,9 @@
 /* WE DO SECTION */
 .we-do {
+  @media screen and (max-width: $desktop) {
+    display: none;
+    
+  }
   padding-bottom: 94px;
 }
 

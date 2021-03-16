@@ -1,6 +1,6 @@
 /* РАССЫЛКА */
 .subscribe {
-  margin-left: 93px;
+  margin-top: 63px;
 }
 
 .subscribe__text {
@@ -13,22 +13,25 @@
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
+
+  text-align: center;
 }
 
 .subscribe__form {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   margin-top: 20px;
 }
 
-.subscribe__label {
-  display: inline-block;
-}
+// .subscribe__label {
+//   display: inline-block;
+// }
 
 .subscribe__input {
   padding: 15px 16px;
-  width: 358px;
+  width: 450px;
   height: 50px;
 
   background-color: transparent;
@@ -45,7 +48,7 @@
   justify-content: center;
   align-items: center;
 
-  margin-left: 12px;
+  margin-top: 30px;
   padding-top: 10px;
   padding-bottom: 10px;
 
@@ -54,6 +57,7 @@
 
   color: $white-color;
   background-color: $accent-color;
+
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
