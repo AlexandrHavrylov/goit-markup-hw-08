@@ -11,27 +11,22 @@ a {
 }
 
 .container {
-
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
-
+  overflow: hidden;
 
   @media screen and (min-width: $mobile) {
     width: $mobile;
-    
   }
-    
+
   @media screen and (min-width: $tablet) {
     width: $tablet;
-    
   }
 
   @media screen and (min-width: $desktop) {
     width: $desktop;
-    
   }
-  
 }
 
 .sections-title {
@@ -47,12 +42,8 @@ a {
   @media screen and(min-width: $desktop) {
     font-size: 36px;
     line-height: 1.16;
-    
   }
-
-  
 }
-
 
 .visually-hidden {
   position: absolute;
