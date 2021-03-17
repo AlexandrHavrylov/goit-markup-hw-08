@@ -1,19 +1,17 @@
 /* FOOTER */
 .footer {
   background-color: $third-bg-color;
-
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.71;
+  text-align: center;
 }
 
 .container--footer {
-  display: flex;
   padding-top: 60px;
   padding-bottom: 60px;
-  align-items: baseline;
+
+  // display: flex;
+  // align-items: baseline;
 }
 
-.social-links {
-  margin-left: 70px;
-}
+// .social-links {
+//   margin-left: 70px;
+// }

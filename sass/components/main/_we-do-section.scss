@@ -1,6 +1,10 @@
 /* WE DO SECTION */
 .we-do {
   padding-bottom: 94px;
+
+  @media screen and(max-width: $desktop) {
+    display: none;
+  }
 }
 
 .we-do__list {

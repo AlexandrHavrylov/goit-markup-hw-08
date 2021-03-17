@@ -1,6 +1,12 @@
 .address {
   margin-top: 20px;
   font-style: inherit;
+
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+
+  text-align: center;
 }
 
 .address__list {
@@ -9,7 +15,7 @@
 
 .address__list,
 .address__item:last-child {
-  margin-top: 9px;
+  margin-top: 8px;
 }
 
 .address__text {

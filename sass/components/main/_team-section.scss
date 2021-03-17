@@ -1,26 +1,31 @@
 /* OUR TEAM SECTION */
 
 .team {
-  padding-top: 94px;
-  padding-bottom: 94px;
+  padding-top: 60px;
+  padding-bottom: 60px;
   background-color: $secondary-bg-color;
 }
 
 .team__list {
   @extend %list;
+  margin-top: 30px;
 
-  display: flex;
-  flex-wrap: wrap;
-  margin-left: calc(-1 * #{$card-set-gap});
-  margin-top: 50px;
+  // display: flex;
+  // flex-wrap: wrap;
+  // margin-left: calc(-1 * #{$card-set-gap});
+  // margin-top: 50px;
 }
 
 .team__item {
-  margin-left: $card-set-gap;
-  flex-basis: calc(100% / 4 - #{$card-set-gap});
+  &:not(:first-child) {
+    margin-top: 30px;
+  }
 
-  width: 270px;
-  height: 428px;
+  // margin-left: $card-set-gap;
+  // flex-basis: calc(100% / 4 - #{$card-set-gap});
+
+  // width: 270px;
+  // height: 428px;
 
   background-color: $primary-bg-color;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
@@ -29,7 +34,8 @@
 }
 
 .teamate-card {
-  padding: 30px 32px;
+  padding-top: 30px;
+  padding-bottom: 24px;
 }
 
 .teamate-card__title {
@@ -45,7 +51,7 @@
 .teamate-card__text {
   color: $secondary-text-color;
 
-  font-weight: normal;
+  font-weight: 400px;
   font-size: 16px;
   line-height: 1.18;
   text-align: center;

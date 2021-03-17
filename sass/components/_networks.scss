@@ -2,13 +2,20 @@
   @extend %list;
 
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
 
   text-align: center;
   margin-top: 16px;
 
   &--footer {
     margin-top: 20px;
+  }
+}
+
+.network__item {
+  &:not(:first-child) {
+    margin-left: 10px;
   }
 }
 
@@ -45,6 +52,11 @@
 
 /* В ФУТЕРЕ */
 
+.network {
+  margin-top: 60px;
+  text-align: center;
+}
+
 .network__text {
   margin: 0;
   padding: 0px;
@@ -55,12 +67,4 @@
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
-}
-
-.network {
-  margin-left: 70px;
-}
-
-.network__item:not(:first-child) {
-  margin-left: 10px;
 }
