@@ -11,10 +11,10 @@ a {
 }
 
 .container {
-  width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
+  width: 480px;
 }
 
 .sections-title {
@@ -25,12 +25,6 @@ a {
 
   margin: 0;
   padding: 0;
-}
-
-%list {
-  list-style: none;
-  padding: 0;
-  margin: 0;
 }
 
 .visually-hidden {

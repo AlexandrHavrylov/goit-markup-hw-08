@@ -1,10 +1,10 @@
 /* HERO section */
 
 .hero {
-  max-width: 1600px;
+  max-width: 480px;
   margin: 0 auto;
-  padding-top: 200px;
-  padding-bottom: 200px;
+  padding-top: 118px;
+  padding-bottom: 118px;
   text-align: center;
 
   background-color: $third-bg-color;
@@ -22,14 +22,14 @@
   color: $white-color;
 
   font-weight: 900;
-  font-size: 44px;
-  line-height: 1.36;
+  font-size: 26px;
+  line-height: 1.61;
   letter-spacing: 0.06em;
   text-transform: uppercase;
 
   margin: 0;
 
-  display: block;
+  // display: block;
 }
 
 .hero__buttom {
