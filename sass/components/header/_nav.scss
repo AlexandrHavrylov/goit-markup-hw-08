@@ -1,0 +1,55 @@
+/* Навигация сайта */
+.nav,
+.nav__list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav__list {
+  @extend %list;
+  margin-left: 93px;
+}
+
+.nav__item:not(:first-child) {
+  margin-left: 50px;
+}
+
+.nav__link {
+  color: $primary-text-color;
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+
+  padding-top: 32px;
+  padding-bottom: 32px;
+
+  transition: color 250ms $bazier;
+
+  &:hover,
+  &:focus {
+    color: $accent-color;
+  }
+}
+
+.nav__link--active {
+  color: $accent-color;
+  position: relative;
+
+  &::after {
+    position: absolute;
+    bottom: 0;
+
+    content: '';
+    display: block;
+    width: 100%;
+    height: 4px;
+
+    margin-top: 28px;
+
+    background-color: $accent-color;
+    border-radius: 2px;
+  }
+}
