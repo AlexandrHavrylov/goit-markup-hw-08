@@ -59,9 +59,11 @@
             >
           </li>
         </ul>
-        <svg width="40px" height="40px">
-          <use href="./img/sprite.svg#icon-menu"></use>
-        </svg>
+        <button type="button" class="menu__button js-open-menu">
+          <svg width="40px" height="40px">
+            <use href="./img/sprite.svg#icon-menu"></use>
+          </svg>
+        </button>
       </div>
     </header>
     <!-- MAIN-->
@@ -549,10 +551,6 @@
         <form class="checkbox">
           <label class="checkbox__label">
             <input class="checkbox__input" type="checkbox" />
-            <span class="checkbox__text"
-              >Соглашаюсь с рассылкой и принимаю
-              <a class="checkbox__link" href="#">Условия договора</a>
-            </span>
             <svg
               class="checkbox__icon checkbox__icon--check"
               width="16"
@@ -567,6 +565,10 @@
             >
               <use href="./img/sprite.svg#icon-uncheck"></use>
             </svg>
+            <span class="checkbox__text"
+              >Соглашаюсь с рассылкой и принимаю
+              <a class="checkbox__link" href="#">Условия договора</a>
+            </span>
           </label>
         </form>
 
@@ -579,6 +581,74 @@
         </button>
       </div>
     </div>
+
+    <!--MOBILE MENU-->
+    <div class="mobile-menu js-menu-container" id="mobile-menu">
+      <nav class="mobile-nav">
+        <ul class="mobile-nav__list">
+          <li class="mobile-nav__item">
+            <a
+              href="./index.html"
+              class="mobile-nav__link mobile-nav__link--active"
+            >
+              Студия</a
+            >
+          </li>
+          <li class="mobile-nav__item">
+            <a href="./portfolio.html" class="mobile-nav__link"> Портфолио</a>
+          </li>
+          <li class="mobile-nav__item">
+            <a href="#" class="mobile-nav__link">Контакты</a>
+          </li>
+        </ul>
+      </nav>
+
+      <address>
+        <ul class="mobile-contacts">
+          <li class="mobile-contacts__item">
+            <a
+              href="tel:+380961111111"
+              class="mobile-contacts__link mobile-contacts__link--cell"
+            >
+              +38 096 111 11 11</a
+            >
+          </li>
+          <li class="mobile-contacts__item">
+            <a
+              href="mailto:info@devstudio.com"
+              class="mobile-contacts__link mobile-contacts__link--mail"
+            >
+              info@devstudio.com</a
+            >
+          </li>
+        </ul>
+
+        <ul class="mobile-networks">
+          <li class="mobile-networks__item">
+            <a href="#" class="mobile-networks__link">Instagram</a>
+          </li>
+          <li class="mobile-networks__item">
+            <a href="#" class="mobile-networks__link">Twitter</a>
+          </li>
+          <li class="mobile-networks__item">
+            <a href="#" class="mobile-networks__link">Facebook</a>
+          </li>
+          <li class="mobile-networks__item">
+            <a href="#" class="mobile-networks__link">LinkedIn</a>
+          </li>
+        </ul>
+      </address>
+      <button
+        type="button"
+        class="menu__button menu__button--close js-close-menu"
+      >
+        <svg class="icon-close--mobile" width="40" height="40">
+          <use href="./img/sprite.svg#icon-mobile-close"></use>
+        </svg>
+      </button>
+    </div>
+
     <script src="./js/modal.js"></script>
+    <script src="./js/mobile-menu.js"></script>
   </body>
 </html>

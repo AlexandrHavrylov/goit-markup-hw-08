@@ -1,13 +1,9 @@
 .callback-form {
-  display: flex;
-  flex-direction: column;
-
   margin-top: 12px;
 }
 
 .callback-form__label {
-  display: flex;
-  flex-direction: column;
+  display: block;
 
   font-weight: normal;
   font-size: 12px;

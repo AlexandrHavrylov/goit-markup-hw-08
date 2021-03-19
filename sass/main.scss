@@ -4,6 +4,7 @@
 @import '../sass/components/logo';
 @import '../sass/components/networks';
 @import '../sass/components/header/page-header';
+@import '../sass/components/header/mobile-menu';
 @import '../sass/components/header/nav';
 @import '../sass/components/header/contacts';
 @import '../sass/components/main/hero-section';
@@ -14,10 +15,10 @@
 @import '../sass/components/footer/page-footer';
 @import '../sass/components/footer/address';
 @import '../sass/components/footer/subscribe';
-// @import '../sass/components/backdrop/backdrop';
-// @import '../sass/components/backdrop/modal';
-// @import '../sass/components/backdrop/callback-form';
-// @import '../sass/components/backdrop/chekbox';
-// @import '../sass/components/portfolio/portfolio-page';
-// @import '../sass/components/portfolio/portfolio-buttons';
-// @import '../sass/components/portfolio/examples';
+@import '../sass/components/backdrop/backdrop';
+@import '../sass/components/backdrop/modal';
+@import '../sass/components/backdrop/callback-form';
+@import '../sass/components/backdrop/chekbox';
+@import '../sass/components/portfolio/portfolio-page';
+@import '../sass/components/portfolio/portfolio-buttons';
+@import '../sass/components/portfolio/examples';
