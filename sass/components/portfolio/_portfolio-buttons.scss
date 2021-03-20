@@ -8,6 +8,10 @@
     margin-left: -8px;
     margin-top: -15px;
   }
+  @media screen and (min-width: $tablet) {
+    align-items: center;
+    justify-content: center;
+  }
 }
 
 .buttons__item {
@@ -16,13 +20,16 @@
     margin-top: 15px;
   }
 
-  // justify-content: center;
-  // // margin-bottom: 50px;
-}
+  @media screen and (min-width: $tablet) {
+    margin-bottom: 30px;
 
-// .buttons__item:not(:first-child) {
-//   margin-left: 8px;
-// }
+    &:not(:first-child) {
+      margin-left: 8px;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+}
 
 .button {
   background-color: $secondary-bg-color;

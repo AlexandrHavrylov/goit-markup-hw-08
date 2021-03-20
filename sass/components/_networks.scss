@@ -53,8 +53,14 @@
 /* В ФУТЕРЕ */
 
 .network {
-  margin-top: 60px;
   text-align: center;
+  @media screen and (max-width: 767px) {
+    margin-top: 60px;
+  }
+
+  @media screen and (min-width: $desktop) {
+    margin-left: 70px;
+  }
 }
 
 .network__text {
