@@ -16,6 +16,14 @@ a {
   margin: 0 auto;
   max-width: 480px;
   min-width: 320px;
+
+  @media screen and (min-width: $tablet) {
+    max-width: 768px;
+
+    @media screen and (min-width: $desktop) {
+      max-width: 1200px;
+    }
+  }
 }
 
 .sections-title {

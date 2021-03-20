@@ -1,15 +1,17 @@
 .modal {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  overflow: auto;
   padding: 40px;
+  position: relative;
+  // position: absolute;
+  // top: 50%;
+  // left: 50%;
+  // transform: translate(-50%, -50%);
+  // overflow: auto;
 
-  max-width: 450px;
-  width: 100vw;
+  // max-width: 450px;
+  // width: 100%;
 
-  max-height: 100vh;
+  // height: 100%;
+
   background-color: $white-color;
   transition: transform 250ms $bazier;
 
