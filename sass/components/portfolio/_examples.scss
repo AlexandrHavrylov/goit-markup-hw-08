@@ -69,7 +69,16 @@
 
 .overlay__text {
   margin: 0;
-  padding: 63px 24px;
+
+  padding: 77px 24px;
+
+  @media screen and(min-width: $tablet) {
+    padding: 49px 24px;
+  }
+
+  @media screen and(min-width: $desktop) {
+    padding: 63px 24px;
+  }
 
   color: $white-color;
   font-size: 18px;
