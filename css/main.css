@@ -62,6 +62,7 @@ a {
 .no-gap {
   display: block;
   max-width: 100%;
+  width: 100%;
 }
 
 /* ЛОГО */
@@ -1203,8 +1204,8 @@ a {
 @media screen and (min-width: 1200px) {
   .examples__element {
     margin: 15px;
-    -ms-flex-preferred-size: calc((100% - 30px * 3) / 3);
-        flex-basis: calc((100% - 30px * 3) / 3);
+    -ms-flex-preferred-size: calc((100% - 90px) / 3);
+        flex-basis: calc((100% - 90px) / 3);
   }
 }
 
